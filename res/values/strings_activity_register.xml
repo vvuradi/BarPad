@@ -19,7 +19,7 @@
     <string name="action_enter">Enter</string>
     <string name="action_sign_up_register">Sign Up</string>
     <string name="action_sign_in_short">Sign in</string>
-    <string name="action_sendtoserver">Send</string>
+    <string name="action_sync">Sync</string>
     <string name="action_reset">Reset</string>
     <string name="action_forgot_password">Recover lost password</string>
     <string name="login_progress_signing_in">Signing in&#8230;</string>
@@ -33,6 +33,8 @@
     <string name="error_invalid_password">This password is too short</string>
     <string name="error_incorrect_password">This password is incorrect</string>
     <string name="error_field_required">This field is required</string>
+    <string name="error_error_sync">Sync Error</string>
+    
 	<string name="error_field_at_rate">Email cannot have two @</string>
 	<string name="error_field_email_length">Email length cannot be more than 100</string>
 	<string name="error_field_pwd_length">Password length cannot be more than 50</string>
