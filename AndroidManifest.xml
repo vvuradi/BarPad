@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.helloworld"
+    package="com.barpad"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -13,10 +13,10 @@
         android:icon="@drawable/barpad"
         android:label="@string/app_name"
         android:theme="@style/AppTheme"
-        android:name="com.example.helloworld.GlobalValues" >
+        android:name="com.barpad.GlobalValues" >
         
         <activity
-            android:name="com.example.helloworld.MainActivity"
+            android:name="com.barpad.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,33 +25,33 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.helloworld.RegisterActivity"
+            android:name="com.barpad.RegisterActivity"
             android:label="@string/title_activity_register"
-            android:parentActivityName="com.example.helloworld.MainActivity"
+            android:parentActivityName="com.barpad.MainActivity"
             android:windowSoftInputMode="adjustResize|stateVisible">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.helloworld.MainActivity" />
+                android:value="com.barpad.MainActivity" />
         </activity>
         <activity
-            android:name="com.example.helloworld.CountActivity"
+            android:name="com.barpad.CountActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_count"
-            android:parentActivityName="com.example.helloworld.RegisterActivity"
+            android:parentActivityName="com.barpad.RegisterActivity"
             android:theme="@style/FullscreenTheme" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.helloworld.RegisterActivity" />
+                android:value="com.barpad.RegisterActivity" />
         </activity>
          <activity
-            android:name="com.example.helloworld.LoginActivity"
+            android:name="com.barpad.LoginActivity"
             android:label="@string/title_activity_login"
-            android:parentActivityName="com.example.helloworld.RegisterActivity"
+            android:parentActivityName="com.barpad.RegisterActivity"
             android:theme="@style/FullscreenTheme" 
             android:windowSoftInputMode="adjustResize|stateVisible">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.helloworld.RegisterActivity" />
+                android:value="com.barpad.RegisterActivity" />
         </activity>
          
     </application>

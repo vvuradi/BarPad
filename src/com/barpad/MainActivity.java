@@ -1,4 +1,6 @@
-package com.example.helloworld;
+package com.barpad;
+
+import com.barpad.R;
 
 import android.os.Bundle;
 import android.app.Activity;
