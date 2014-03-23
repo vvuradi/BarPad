@@ -1,0 +1,227 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_count"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#86b4cc"
+    tools:context=".CountActivity" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/countView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/init"
+            android:textColor="#848484"
+            android:textSize="40sp" />
+
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:stretchColumns="0,1,2" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" >
+
+                <Button
+                    android:id="@+id/one"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_select"
+                    android:gravity="center"
+                    android:onClick="getValue"
+                    android:text="@string/one"
+                    android:textSize="40sp" />
+
+                <Button
+                    android:id="@+id/two"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_select"
+                    android:gravity="center"
+                    android:onClick="getValue"
+                    android:text="@string/two"
+                    android:textSize="40sp" />
+
+                <Button
+                    android:id="@+id/three"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_select"
+                    android:gravity="center"
+                    android:onClick="getValue"
+                    android:text="@string/three"
+                    android:textSize="40sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" >
+
+                <Button
+                    android:id="@+id/four"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_select"
+                    android:gravity="center"
+                    android:onClick="getValue"
+                    android:text="@string/four"
+                    android:textSize="40sp" />
+
+                <Button
+                    android:id="@+id/five"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_select"
+                    android:gravity="center"
+                    android:onClick="getValue"
+                    android:text="@string/five"
+                    android:textSize="40sp" />
+
+                <Button
+                    android:id="@+id/six"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_select"
+                    android:gravity="center"
+                    android:onClick="getValue"
+                    android:text="@string/six"
+                    android:textSize="40sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" >
+
+                <Button
+                    android:id="@+id/seven"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_select"
+                    android:gravity="center"
+                    android:onClick="getValue"
+                    android:text="@string/seven"
+                    android:textSize="40sp" />
+
+                <Button
+                    android:id="@+id/eight"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_select"
+                    android:gravity="center"
+                    android:onClick="getValue"
+                    android:text="@string/eight"
+                    android:textSize="40sp" />
+
+                <Button
+                    android:id="@+id/nine"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_select"
+                    android:gravity="center"
+                    android:onClick="getValue"
+                    android:text="@string/nine"
+                    android:textSize="40sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" >
+
+                <Button
+                    android:id="@+id/add"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/plus_select"
+                    android:gravity="center"
+                    android:onClick="incCount"
+                    android:text="@string/add"
+                    android:textSize="50sp" />
+
+                <Button
+                    android:id="@+id/zero"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_select"
+                    android:gravity="center"
+                    android:onClick="getValue"
+                    android:text="@string/init"
+                    android:textSize="40sp" />
+
+                <Button
+                    android:id="@+id/sub"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/minus_select"
+                    android:gravity="center"
+                    android:onClick="decCount"
+                    android:text="@string/sub"
+                    android:textSize="50sp" />
+            </TableRow>
+
+            <Button
+                android:id="@+id/send_to_server_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:text="@string/action_sendtoserver" />
+
+            <Button
+                android:id="@+id/reset_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:text="@string/action_reset" />
+        </TableLayout>
+    </LinearLayout>
+
+</ScrollView>

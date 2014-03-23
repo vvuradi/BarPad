@@ -1,0 +1,41 @@
+<resources>
+
+    <string name="title_activity_register">Register</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email*</string>
+    <string name="prompt_user_type">Select user type</string>
+    <string-array name="user_roles">
+        <item>ROLE_USER</item>
+        <item>ROLE_ADMIN</item>        
+    </string-array>
+    <string name="prompt_first_name">First Name*</string>
+    <string name="prompt_middle_name">Middle Name</string>
+    <string name="prompt_last_name">Last Name*</string>
+    <string name="prompt_user_name">Username*</string>
+    <string name="prompt_password">Password*</string>
+    <string name="prompt_Mobile_number">Telephone</string>
+    <string name="action_sign_in_register">Sign in</string>
+    <string name="action_enter">Enter</string>
+    <string name="action_sign_up_register">Sign Up</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_sendtoserver">Send</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="login_progress_signing_in">Signing in&#8230;</string>
+    <string name="login_progress_signing_up">Registering &#8230;</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_noAtTheRate">Email should have @</string>
+    <string name="error_noDot">Email should have .</string>
+    <string name="error_invalid_FirstName">First name cannot be empty</string>
+    <string name="error_invalid_UserName">Username cannot be empty</string>
+    <string name="error_invalid_LastName">Last name cannot be empty</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+	<string name="error_field_at_rate">Email cannot have two @</string>
+	<string name="error_field_email_length">Email length cannot be more than 100</string>
+	<string name="error_field_pwd_length">Password length cannot be more than 50</string>
+	<string name="logo_desc">logo</string>
+	
+</resources>
